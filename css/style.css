@@ -32,24 +32,7 @@ h2 {
 .navigation-links {
   float: right;
 }
-.navigation-links ul li {
-  display: inline-block;
-  padding: 2em;
-}
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-.clearfix {
-  clear: both;
-}
-.hero {
-  background-image: url("../images/hero.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 80vh;
-}
+
 .hero-content {
   width: 40%;
   float: right;
@@ -61,44 +44,10 @@ h2 {
   text-shadow: 2px 2px 2px grey;
   font-size: 3rem;
 }
-.hero-content p {
+{
   margin: 2em 0;
 }
 .btn-blue {
-  background-color: #496bf2;
-  margin: 1em;
-}
-.btn-green {
-  background-color: #2dd6c1;
-}
-.card {
-  float: left;
-  width: 30%;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px lightgray;
-  padding: 1em;
-  height: 350px;
-}
-.card:nth-child(2) {
-  margin: 0 5%;
-}
-.card h3 {
-  color: #496bf2;
-  padding: 1em;
-}
-.features {
-  margin: 2em;
-  text-align: center;
-}
-
-.about {
-  margin: 4em 0;
-  border-radius: 5px;
-  padding: 1em;
-  height: 300px;
-}
-.about p {
-  padding: 1em 0;
 }
 .image {
   float: left;
@@ -215,4 +164,8 @@ form {
 }
 ul li{
   list-style: none;
+}
+.coder{
+  margin-bottom: auto;
+  float:bottom-center ;
 }
